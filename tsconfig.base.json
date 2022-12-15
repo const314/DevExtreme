@@ -32,13 +32,12 @@
     "types": ["jest", "node"],
     "useDefineForClassFields": true,
     "useUnknownInCatchVariables": true,
-    "paths": {
-      "@devextreme/*": [
-        "./packages/*/src"
-      ],
-      "@playgrounds/*": [
-        "./playgrounds/*/src"
-      ]
-    }
-  }
+  },
+	"exclude": [
+		"test",
+		"__test__",
+		"lib",
+		"**/*.test.ts",
+    "node_modules"
+	],
 }

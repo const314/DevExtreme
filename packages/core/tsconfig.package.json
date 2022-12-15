@@ -3,17 +3,8 @@
 	"extends": "../../tsconfig.base.json",
 	"compilerOptions": {
 		"outDir": "./lib",
-		"rootDir": "./src",
-		"composite": true
 	},
 	"include": [
 		"src"
 	],
-	"exclude": [
-		"test",
-		"__test__",
-		"lib",
-		"**/*.test.ts"
-	],
-	"references": []
 }

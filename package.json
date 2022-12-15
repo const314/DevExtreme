@@ -48,7 +48,7 @@
         "start:react": "nx start @playgrounds/react",
         "start:angular": "nx start @playgrounds/angular",
         "watch": "nx run-many --target=watch",
-        "clean": "rimraf ./{packages,playgrounds}/*/{lib,dist,tsc-out,*.tsbuildinfo} && nx reset",
+        "clean": "rimraf ./{packages,playgrounds}/*/{lib,dist,tsc-out,*.tsbuildinfo,.rollup.cache} && nx reset",
         "test": "nx run-many --target=test",
         "test:e2e": "nx run-many --target=e2e",
         "pre-commit": "node build/pre-commit/index.cjs",

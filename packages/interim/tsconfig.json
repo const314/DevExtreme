@@ -33,10 +33,5 @@
     ],
     "baseUrl": "./",
     "stripInternal": true,
-    "paths": {
-      "*": [
-        "node_modules"
-      ]
-    },
   }
 }
